@@ -1,0 +1,49 @@
+.header__hero-text-box{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+
+.hero-text{
+	color: $color-white;
+	text-transform: uppercase;
+	
+		&-primary{
+		display: block;
+		font-size: 6.5rem;
+		font-weight: 400;
+		letter-spacing: 2.8rem;
+		animation-name: heroTextPrimary;
+		animation-duration: 2s;
+		animation-timing-function: ease-in;
+		}
+		&-sub{
+		display: block;
+		font-size: 2rem;
+		font-weight: 700;
+		letter-spacing: 1.3rem;
+		margin-bottom: 5rem;
+
+		animation-name: heroTextSub;
+		animation-duration: 2s;
+		animation-timing-function: ease-in;
+		}
+}
+
+.section-about-header{
+	display: inline-block;
+	font-size: 3.3rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	background-image : linear-gradient(to right,$color-primary-light,$color-primary-dark);
+	-webkit-background-clip: text;
+	color: transparent;
+
+	&:hover{
+		transform:skewY(3deg) skewX(10deg);
+	}
+}
