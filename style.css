@@ -1,0 +1,92 @@
+html{
+	font-size: 10px;
+}
+body{
+	height: 95vh;
+	background-image: url(img/hero-image.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*--------------------------------Design Format-----------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+section{
+	text-align: center;
+	color: #fff;
+	margin-top: 7rem;
+}
+
+.col-height{
+	height: 40rem;
+}
+
+.vert{
+	height: 100%;
+}
+.vert-main{
+	height: 65%;
+}
+.vert-sub{
+	height: 35%;
+}
+.height{
+	height: 100%;
+}
+.vert-sub-heading{
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.round-border{
+	border-radius: 20px;
+}
+.vertical-border{
+	 border-left: .3rem solid #fff;
+	 border-top: .3rem solid #fff;	 
+}
+.bg-custom-2{
+	background-image: linear-gradient(to right,rgba(1,163,164,0.5),rgba(1,163,164,0.5));
+}
+.bg-custom-1{
+	background-image: linear-gradient(to right,rgba(253,150,68,0.5),rgba(253,150,68,0.5));
+}
+.bg-custom-3{
+	background-image: linear-gradient(to right,rgba(38,222,129,0.5),rgba(38,222,129,0.5));
+}
+.custom-font{
+	font-size: 25px !important;
+}
+/*-------------------------------------------------------------------------------------------*/
+/*--------------------------------Icon Design Format-----------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+
+.icon-main{
+	font-size: 12rem;
+	-webkit-text-stroke: 2px white;
+}
+.icon-sub{
+	font-size: 5rem;
+}
+.custom-icon{
+	height: 50%;
+}
+.custom-icon-pre{
+	height: 40%;
+}
+/*-------------------------------------------------------------------------------------------*/
+/*--------------------------------Icon Design Format-----------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+.container-header{
+	width: 40vw;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+}
